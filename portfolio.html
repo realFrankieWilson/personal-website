@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Frank Williams Ugwu</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--Header Section-->
+    <header>
+        <nav>
+            <div class="logo">Frankie Wilson</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Main Section-->
+    <main>
+        <section id="portfolio">
+            <h1 class="center-text">My Software Engineering Projects</h1>
+            <p>This portfolio showcase my journey into software engineering, highlighting projects that demonstrate my
+                foundational skills and problem-Solving abilities. Each project represents a step in my learning
+                process.</p>
+
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Alx Program: Low Level Programming Language</h3>
+                    <p class="technologies">Technologies: Embaded system programming</p>
+                    <p>I possess a strong proficiency in low-level programming languages, which are essential for
+                        developing software that requires direct interaction with hardware and high-performance
+                        execution.</p>
+                    <a href="https://github.com/realFrankieWilson/alx-low_level_programming.git" class="btn project-btn"
+                        target="_blank">Github Repo</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Alx Program: System Engineering Devops</h3>
+                    <p class="technologies">In this project, I focused on acquiring practical
+                        skills in systems engineering and DevOps methodologies. The aim of this project was to deepen my
+                        understanding of how to design, implement, and manage complex systems while integrating
+                        continuous development and operations practices.</p>
+                    <a href="https://github.com/realFrankieWilson/alx-system_engineering-devops.git" class="btn project-btn" target="_blank">Github Repo</a>
+                </div>
+
+                <!-- <div class="project-card">
+                    <h3>Project Title 1: Project Name</h3>
+                    <p class="technologies">Technologies: HTML CSS</p>
+                    <p>Brief description of the project. What was it's purpose? What foundational HTML/CSS concepts did
+                        it demonstrate?</p>
+                    <a href="#" class="btn project-btn" target="_blank">View</a>
+                    <a href="#" class="btn project-btn" target="_blank">Github Repo</a>
+                </div> -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Frank Williams Ugwu. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
